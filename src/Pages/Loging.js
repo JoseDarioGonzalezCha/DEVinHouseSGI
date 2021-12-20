@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Loging() {
+export const Loging = () => {
   return <div>Loging</div>;
-}
+};
