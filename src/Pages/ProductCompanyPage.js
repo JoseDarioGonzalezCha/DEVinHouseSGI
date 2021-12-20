@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function ProductCompany() {
+export const ProductCompanyPage = () => {
   return <div>Cadastro Produto</div>;
-}
+};

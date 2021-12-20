@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Map() {
+export const MapPage = () => {
   return <div>Map</div>;
-}
+};
