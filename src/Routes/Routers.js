@@ -6,6 +6,7 @@ import { ProductCompanyPage } from "../Pages/ProductCompanyPage";
 import { MapPage } from "../Pages/MapPage";
 import { ProductListPage } from "../Pages/ProductListPage";
 import { Navbar } from "../Components/Navbar/Navbar";
+import { ListCompanyPage } from "../Pages/ListCompanyPage";
 
 export const Routers = () => {
   return (
@@ -13,10 +14,11 @@ export const Routers = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomeCompanyPage />} />
+          <Route path="/" element={<MapPage />} />
+          <Route path="/empresa" element={<HomeCompanyPage />} />
           <Route path="/produto" element={<ProductCompanyPage />} />
-          <Route path="/map" element={<MapPage />} />
           <Route path="/listaproduto" element={<ProductListPage />} />
+          <Route path="/listaempresas" element={<ListCompanyPage />} />
         </Routes>
       </BrowserRouter>
     </>

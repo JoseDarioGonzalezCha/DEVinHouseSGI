@@ -1,0 +1,151 @@
+{
+  "empresas": [
+    {
+      "id": 1,
+      "racaoSocial": "Bry Tecnology Ltda",
+      "nomeFantasy": "Bry Tec",
+      "cnpj": "123456789",
+      "email": "brytec@email.com",
+      "latitude": "-4.095229499999999",
+      "longitude": "-38.4550829"
+    },
+    {
+      "id": 2,
+      "racaoSocial": "Teltec Tecnology Ltda",
+      "nomeFantasy": "Teltec",
+      "cnpj": "987456321",
+      "email": "teltec@email.com",
+      "latitude": "-4.095229499999999",
+      "longitude": "-38.4550829"
+    },
+    {
+      "racaoSocial": "jose",
+      "nomeFantasy": "jose",
+      "cnpj": "132456789",
+      "email": "jdariogonzalez.2020@gmail.com",
+      "cep": "89070000",
+      "logradouro": "Heinrich Hemmer",
+      "numero": "1583",
+      "bairro": "Badenfurt",
+      "cidade": "Blumenau",
+      "complemento": "Residencial Hamburgo bloco 9 apto 22",
+      "id": 3
+    },
+    {
+      "racaoSocial": "Supermercado AAA Ltda",
+      "nomeFantasy": "Mercado AAA",
+      "cnpj": "456987",
+      "email": "mercado@email.com",
+      "cep": "89070000",
+      "logradouro": "Heinrich Hemmer",
+      "numero": "1583",
+      "bairro": "Badenfurt",
+      "cidade": "Blumenau",
+      "complemento": "Bloco 9 Apto 22",
+      "id": 4
+    },
+    {
+      "racaoSocial": "AOS System",
+      "nomeFantasy": "alura",
+      "cnpj": "1478552",
+      "email": "alura@email.com",
+      "cep": "89085000",
+      "logradouro": "Itoupava",
+      "numero": "256",
+      "bairro": "São Paulo",
+      "cidade": "São Paulo",
+      "complemento": "edificio ",
+      "id": 5
+    },
+    {
+      "racaoSocial": "Pamplona Ltda",
+      "nomeFantasy": "Blumenau Iluminação",
+      "cnpj": "789654",
+      "email": "pamplona@email.com",
+      "cep": "8908965",
+      "logradouro": "Passo Manso",
+      "numero": "789",
+      "bairro": "Passo Manso",
+      "cidade": "Blumenau",
+      "complemento": "nenhum",
+      "id": 6
+    },
+    {
+      "racaoSocial": "Logistica Blumenau Ltda",
+      "nomeFantasy": "LogBlu",
+      "cnpj": "563214",
+      "email": "logblu@email.com",
+      "cep": "890258963",
+      "logradouro": "br 470",
+      "numero": "587",
+      "bairro": "Badenfurt",
+      "cidade": "Blumenau",
+      "complemento": "nenhum",
+      "id": 7
+    },
+    {
+      "racaoSocial": "Blumenau Data System Ldta",
+      "nomeFantasy": "Bludata",
+      "cnpj": "753951",
+      "email": "bludata@email.com",
+      "cep": "890741258",
+      "logradouro": "Centro",
+      "numero": "587",
+      "bairro": "Centro",
+      "cidade": "Blumenau",
+      "complemento": "nenhum",
+      "id": 8
+    }
+  ],
+  "endereco": [
+    {
+      "cep": "89220000",
+      "logradouro": "Rua ABC",
+      "numero": "123",
+      "bairro": "Um bairro",
+      "cidade": "Joinville",
+      "complemento": "SC",
+      "empresaId": 1
+    },
+    {
+      "cep": "89220000",
+      "logradouro": "Rua ABC",
+      "numero": "123",
+      "bairro": "Um bairro",
+      "cidade": "Joinville",
+      "complemento": "SC",
+      "empresaId": 2
+    }
+  ],
+  "produto": [
+    {
+      "id": 1,
+      "imgUrl": "https://www.galaxcommerce.com.br/sistema/upload/1994/produtos/cerveja-skol-latao-473-ml_2020-11-20_12-05-15_0_204_min.jpg",
+      "nome": "Cerveja Blumenau",
+      "custoUnitario": "5,99",
+      "descricao": "Cerveja tipo pilsen",
+      "fornecedor": "Cervejaria Blumenau",
+      "grupo": "Bebidas Alcoholicas"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://images.colombo.com.br/produtos/932935/932935_b_z.jpg?ims=300x300",
+      "nome": "Smart TV",
+      "custoUnitario": 0,
+      "descricao": "TV bonita",
+      "fornecedor": "Magalu",
+      "grupo": "eletronico",
+      "cutoUnitario": "2000"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://images.colombo.com.br/produtos/932935/932935_b_z.jpg?ims=300x300",
+      "nome": "Smart TV",
+      "custoUnitario": 0,
+      "descricao": "TV bonita",
+      "fornecedor": "Sansumg",
+      "grupo": "eletronico",
+      "cutoUnitario": "686"
+    }
+  ]
+}
